@@ -4,7 +4,7 @@
 
 ! it may be that your version is installed on another disk or path
 
-3) Paste this for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+3) Paste this: for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
 
 4) Connect to the internet and paste this (ALL TOGETHER):
 
