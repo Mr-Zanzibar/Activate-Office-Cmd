@@ -1,0 +1,23 @@
+1) Open CMD as the ADMINISTRATOR
+
+2) Paste this: " cd /d C:\Program Files\Microsoft Office\Office16 "
+
+! it may be that your version is installed on another disk or path
+
+3) Paste this for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+
+4) Connect to the internet and paste this (ALL TOGETHER):
+
+cscript ospp.vbs /setprt:1688
+cscript ospp.vbs /unpkey:6F7TH >nul
+cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
+cscript ospp.vbs /sethst:s8.uk.to
+cscript ospp.vbs /act
+
+5) if the activation was not successful try putting this in the cmd as well (ALL TOGETHER):
+
+cscript ospp.vbs /sethst:s8.uk.to
+cscript ospp.vbs /sethst:kms8.MSGuides.com
+
+
+!! For everything to work you MUST have already downloaded Office on your PC!!
